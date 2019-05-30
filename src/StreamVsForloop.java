@@ -24,7 +24,7 @@ public class StreamVsForloop {
 
     public static void main(String[] args) {
 
-            ArrayList<String> list = new ArrayList<>();
+        ArrayList<String> list = new ArrayList<>();
         for (int i = 0; i < 20000000; i++) {
             list.add(String.valueOf(i));
         }
